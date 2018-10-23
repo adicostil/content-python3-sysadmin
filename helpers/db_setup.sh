@@ -26,7 +26,7 @@ sudo docker run -d \
   -e POSTGRES_DB=sample \
   -p 80:5432 \
   --restart always \
-  postgres:9.6.8-alpine
+  postgres:9.6-alpine
 
 sleep 20 # Ensure enough time for postgres database to initialize and create role
 
